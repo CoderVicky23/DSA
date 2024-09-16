@@ -8,7 +8,6 @@ struct Node {
     int val;
     Node * left;
     Node * right;
-    Node() : val(NULL), left(nullptr), right(nullptr) {};
     Node(int x) : val(x), left(nullptr), right(nullptr) {};
 };
 
